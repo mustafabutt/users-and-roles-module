@@ -1,0 +1,36 @@
+user
+    user/create:
+        {
+            "email": "mustafabutt@gmail.com",
+            "roles":[{ "groupId": "11",  "role": "Manager"}]
+        }
+    user/edit:
+        {
+            "_id": "5e5ba429681bc44961de6338",
+            "email": "mustafabutt10@gmail.com",
+            "roles":[{ "groupId": "11",  "role": "Manager",  "_id": "5e5ba429681bc44961de6336"}]
+        }
+    /user/delete:
+    {
+        "_id":"5e5bc74404bec74b0c69b138",
+
+         "roles":[{ "groupId": "11",  "role": "Manager",  "_id": "5e5ba429681bc44961de6336"}]
+    }
+    /user/get:
+
+    /group/create:
+        {
+            "name": "group3",
+            "collectionIds":["c1","c2"]
+        }
+    /group/edit:
+        {
+        	"_id":"5e5c2d99cdd0954f46eaf27e",
+            "name": "group3",
+            "collectionIds":["c1"]
+        }
+    /group/delete:
+        {
+            "_id":"5e5c2d99cdd0954f46eaf27e",
+        }
+    /group/get:
