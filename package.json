@@ -10,7 +10,7 @@
   "repository": "",
   "author": "Mustafa",
   "dependencies": {
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "async-each-series": "^1.1.0",
     "bcryptjs": "^2.4.3",
     "cheerio": "^1.0.0-rc.3",
