@@ -17,7 +17,7 @@
     "child_process": "^1.0.2",
     "crawler": "^1.2.1",
     "cron": "^1.7.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "googleapis": "^43.0.0",
     "helmet": "^3.18.0",
     "host": "0.0.1",
